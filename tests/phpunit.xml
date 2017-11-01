@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phunit colors="true"
+		convertErrorsToExceptions="true"
+		convertNoticesToExceptions="true"
+		convertWarningToExeptions="true"
+		processIsolation="false"
+		stopOnFailure="false"
+		syntaxCheck="true">
+	<testsuites>
+		<testsuite name="My tests">
+			<directory>.</directory>
+		</testsuite>
+	</testsuites>
+</phunit>

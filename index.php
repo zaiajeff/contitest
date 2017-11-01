@@ -17,7 +17,7 @@ if(isset($_POST['sentence']))
 ?>
 
 <form method="POST" action="">
-	<input type="text" name="sentence" value="<?php print($sentence);?>"/>
+	<input type="text" name="sentence" value="<?php print(htmlentities($sentence),ENT_QUOTES);?>"/>
 	<input type="submit" name="analysis" value="Analyse this!">
 </form>
 

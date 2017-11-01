@@ -15,7 +15,7 @@ class Sentence {
 	}
 
 	public function getNumberOfWords(){
-		return count(str_word_count($this->text,2))+2;
+		return count(str_word_count($this->text,2));
 	}
 
 
